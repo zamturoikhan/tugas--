@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<%- include('../layout/header'); -%>
+
+<body>
+    <div class="sebuah-kotak">
+        <p class="title-login">Login</p>
+        <hr>
+
+        <form action="http://localhost:3000/login" method="POST">
+            <input type="text" class="form-login" name="username" placeholder="username">
+            <input type="password" class="form-login" name="password" placeholder="password">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <%- include('../layout/footer'); -%>
+</body>
+
+</html>
